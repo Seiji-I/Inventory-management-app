@@ -32,13 +32,13 @@ export default class Create extends React.Component {
           <div>
             <label>
               IMAGE: 
-              <input type="file" ref={this.fileInput} />
+              <input  className="newline" type="file" ref={this.fileInput} />
             </label>
           </div>
           <div>
             <label>
               DISCRIPTION: 
-              <input type="textare" name="discription" />
+              <textarea className="newline discription" name="discription"></textarea>
             </label>
           </div>
           <button>Create</button>
